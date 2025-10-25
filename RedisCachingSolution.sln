@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Pub.Sub.Example", "Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Pub.Sub.Subscriber.Example", "Redis.Pub.Sub.Subscriber.Example\Redis.Pub.Sub.Subscriber.Example.csproj", "{2F13E0AC-162A-4569-AC6B-ABED3204415C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Sentinel", "Redis.Sentinel\Redis.Sentinel.csproj", "{83F1CF3C-D508-4F47-B9B4-BDF7654C67BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{2F13E0AC-162A-4569-AC6B-ABED3204415C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F13E0AC-162A-4569-AC6B-ABED3204415C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F13E0AC-162A-4569-AC6B-ABED3204415C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83F1CF3C-D508-4F47-B9B4-BDF7654C67BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F1CF3C-D508-4F47-B9B4-BDF7654C67BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F1CF3C-D508-4F47-B9B4-BDF7654C67BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83F1CF3C-D508-4F47-B9B4-BDF7654C67BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
